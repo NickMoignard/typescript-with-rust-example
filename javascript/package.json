@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "packageManager": "pnpm",
   "scripts": {
     "start:dev": "ts-node ./src/test.ts",
     "lint": "eslint --ext .ts . --fix",
