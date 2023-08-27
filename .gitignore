@@ -1,4 +1,5 @@
 javascript/node_modules
+javascript/dist
 rust/target
 rust/pkg
 .DS_Store
