@@ -8,7 +8,7 @@
   "scripts": {
     "start:dev": "ts-node ./src/test.ts",
     "lint": "eslint --ext .ts . --fix",
-    "start": "node ./dist/test.js",
+    "start": "node ./dist/src/test.js",
     "build": "tsc -p ."
   },
   "keywords": ["rust", "wasm", "typescript"],
