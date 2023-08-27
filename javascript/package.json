@@ -5,14 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "ts-node ./src/test.ts",
-    "ts:run": "ts-node",
+    "start:dev": "ts-node ./src/test.ts",
     "lint": "eslint --ext .ts . --fix",
     "start": "node ./dist/test.js",
     "build": "tsc -p ."
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["rust", "wasm", "typescript"],
+  "author": "nick moignard",
   "license": "ISC",
   "dependencies": {
     "@typescript-eslint/parser": "^6.4.0",
