@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "dist", // where to put the compiled JS files
+    "target": "es2022", // which level of JS support to target
+    "module": "node16", // which system for the program AMD, UMD, System, CommonJS
+    "moduleResolution": "node16",
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": true,
+    "lib": ["dom", "esnext"],
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["node_modules/@types"],
+    // Recommended: Compiler complains about expressions implicitly typed as 'any'
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  },
+  "include": ["src"], // which files to compile
+  "exclude": ["node_modules"], // which files to skip
+}
